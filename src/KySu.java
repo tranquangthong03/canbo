@@ -1,17 +1,15 @@
 public class KySu extends CanBo {
-    private String nganhDaoTao;
+    private String nganhDaoTao_141;
 
-    public KySu(String hoTen, String ngaySinh, String gioiTinh, String diaChi, String nganhDaoTao) {
-        super(hoTen, ngaySinh, gioiTinh, diaChi);
-        this.nganhDaoTao = nganhDaoTao;
+    public KySu(String hoTen_141, String ngaySinh_141, String gioiTinh_141,
+                String diaChi_141, String nganhDaoTao_141) {
+        super(hoTen_141, ngaySinh_141, gioiTinh_141, diaChi_141);
+        this.nganhDaoTao_141 = nganhDaoTao_141;
     }
 
-    public String getNganhDaoTao() { return nganhDaoTao; }
-    public void setNganhDaoTao(String nganhDaoTao) { this.nganhDaoTao = nganhDaoTao; }
-
     @Override
-    public void hienThiThongTin() {
-        super.hienThiThongTin();
-        System.out.println("Ngành đào tạo: " + nganhDaoTao);
+    public void hienThiThongTin_141() {
+        super.hienThiThongTin_141();
+        System.out.println("Ngành đào tạo: " + nganhDaoTao_141);
     }
 }

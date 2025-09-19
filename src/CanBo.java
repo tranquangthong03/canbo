@@ -1,31 +1,21 @@
 public class CanBo {
-    private String hoTen;
-    private String ngaySinh;
-    private String gioiTinh;
-    private String diaChi;
+    private String hoTen_141;
+    private String ngaySinh_141;
+    private String gioiTinh_141;
+    private String diaChi_141;
 
-    public CanBo() {}
-
-    public CanBo(String hoTen, String ngaySinh, String gioiTinh, String diaChi) {
-        this.hoTen = hoTen;
-        this.ngaySinh = ngaySinh;
-        this.gioiTinh = gioiTinh;
-        this.diaChi = diaChi;
+    public CanBo(String hoTen_141, String ngaySinh_141, String gioiTinh_141, String diaChi_141) {
+        this.hoTen_141 = hoTen_141;
+        this.ngaySinh_141 = ngaySinh_141;
+        this.gioiTinh_141 = gioiTinh_141;
+        this.diaChi_141 = diaChi_141;
     }
-    public String getHoTen() { return hoTen; }
-    public void setHoTen(String hoTen) { this.hoTen = hoTen; }
 
-    public String getNgaySinh() { return ngaySinh; }
-    public void setNgaySinh(String ngaySinh) { this.ngaySinh = ngaySinh; }
+    public String getHoTen_141() { return hoTen_141; }
+    public void setHoTen_141(String hoTen_141) { this.hoTen_141 = hoTen_141; }
 
-    public String getGioiTinh() { return gioiTinh; }
-    public void setGioiTinh(String gioiTinh) { this.gioiTinh = gioiTinh; }
-
-    public String getDiaChi() { return diaChi; }
-    public void setDiaChi(String diaChi) { this.diaChi = diaChi; }
-
-    public void hienThiThongTin() {
+    public void hienThiThongTin_141() {
         System.out.printf("Họ tên: %s, Ngày sinh: %s, Giới tính: %s, Địa chỉ: %s%n",
-                hoTen, ngaySinh, gioiTinh, diaChi);
+                hoTen_141, ngaySinh_141, gioiTinh_141, diaChi_141);
     }
 }
